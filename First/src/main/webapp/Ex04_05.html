@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<Script language="JavaScript">
+		function ranData(){
+			var date = new Date();
+			var x = date.getSeconds();
+			var y = (x % 5) + 1;
+			alert("난수 = " + y);
+		}
+		
+	</Script>
+</head>
+<body>
+	<a href="#" onClick="ranData()">누르면 난수발생</a>
+</body>
+</html>
