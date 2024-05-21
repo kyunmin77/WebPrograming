@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>자바스크립트 테스트</title>
+	<script language="JavaScript">
+		function question(){
+			var ans = confirm("지금 비가오나요?");
+			if (ans==true)
+				alert("우산 들고 나가세요!");
+			else
+				alert("우산은 들고 나가지 않아도 되겠군요.");
+		}
+		function input_data(){
+			var name = prompt("이름 = ", "홍길동");
+			var age = prompt("나이 = ", 20);
+			document.write(name + "님!<br/>");
+			document.write("당신은 만 " + (age-1) + "세 이십니다.");
+		}
+		</script>
+</head>
+<body onLoad="javascript:alert('환영합니다.')">
+	<form>
+		<input type="button" value="질문" onClick="question()">
+	</form>
+	<a href="#" onClick="input_data()">입력!</a>
+</body>
+</html>
