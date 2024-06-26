@@ -28,7 +28,7 @@
   	<url-pattern>/controllerUsingFile</url-pattern>
   </servlet-mapping>
   
-
+<!-- /controllerUsingURI로 갈때 configFile을 파라미터에 담아 이동 (commandHandlerURI.properties) -->
   <servlet>
   	<servlet-name>ControllerUsingURI</servlet-name>
   	<servlet-class>mvc.controller.ControllerUsingURI</servlet-class>
